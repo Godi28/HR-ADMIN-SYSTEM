@@ -21,6 +21,8 @@ npx prisma migrate dev
 ### Start the Development Server
 In power shell/command prompt run the following command in the root folder of the project:
 npm run dev 
+
+
 Once the command has run open your web browser and navigate to the following address to acess the application:
 ###### http://localhost:3000
 
