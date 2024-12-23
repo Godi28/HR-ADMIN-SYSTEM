@@ -7,7 +7,7 @@ A T3-stack human resource management system.
 
 Follow the steps below to set up and run the project locally.
 
-### Clone the Repository
+### Clone/Download the Repository
 Clone the repository or download the repository on github.
 
 ### Install dependencies 
