@@ -1,36 +1,28 @@
 
-# HR Administration System
+# HR-ADMIN-SYSTEM
 
-This project is a web-based HR Administration System built using the T3 stack with Next.js, TypeScript, Prisma, and Tailwind CSS.
-
-## Prerequisites
-- Node.js
-- npm or yarn
-- SQLite
-- Git
+A T3-stack human resource management system.
 
 ## Getting Started
 
 Follow the steps below to set up and run the project locally.
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Ailwei/hr-admin-system.git
-cd hr-admin-system 
-```
+### Clone the Repository
+Clone the repository or download the repository on github.
 
-### 2 Install dependencies 
-```bash
+### Install dependencies 
+open command prompt/power shell in the directory of the project you cloned or downloaded and run the following command:
 npm install
-```
 
-### 4. Set Up Environment 
-#### 1. Set Up Environment Variables
-#### 2. Add the following environment variables:
-```bash
-DATABASE_URL="file:./dev.db"
-NEXTAUTH_SECRET="<your_secret_key>"
-```
+### Set Up Environment in the env file
+open the env. file from the project and set up the following variables
+
+AUTH_SECRET=""
+
+# Next Auth Discord Provider
+AUTH_DISCORD_ID=""
+AUTH_DISCORD_SECRET=""
+
 ### 5. Run Database Migrations
 ```bash
 npx prisma migrate dev
